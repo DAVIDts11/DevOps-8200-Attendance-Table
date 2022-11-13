@@ -77,4 +77,4 @@ result["More then 70% Attendence"] = np.where(result["% Attendance time"] >= 0.7
 result2 = pd.merge(result2, result, on="Name", how="outer")
 
 #save the result to csv file
-result2.to_csv('output4.csv', index=False ,encoding = 'utf-8-sig')
+result2.to_csv('output1-extended-table.csv', index=False ,encoding = 'utf-8-sig')
